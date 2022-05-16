@@ -3,10 +3,6 @@
 #include <cmath>
 #include <algorithm>
 
-namespace Statistics {
-    Stats ComputeStatistics(const std::vector<float>& data);
-}
-
 class Stats
 {
 public:
@@ -64,3 +60,7 @@ public:
 	}
 	void checkAndAlert(const std::vector<float>& data);
 };
+
+namespace Statistics {
+    Stats ComputeStatistics(const std::vector<float>& data);
+}
