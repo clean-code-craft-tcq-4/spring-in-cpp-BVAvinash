@@ -6,8 +6,6 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& data) {
 	if (data.size() > 0)
 	{
 		float avg = 0;
-		float min = data[0];
-		float max = data[0];
 		for (auto input : data)
 		{
 			avg = avg + input;
